@@ -1,4 +1,4 @@
-update=Saturday, 05 May 2018 'amt' 07:28:28
+update=Saturday, 05 May 2018 'amt' 09:30:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=lib/pot_numbered
 LibName31=lib/socket_custom
 LibName32=lib/sw_custom
 LibName33=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
