@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name custom_sockets)(type KiCad)(uri "$(KIPRJMOD)/lib/custom_sockets.pretty")(options "")(descr ""))
+  (lib (name custom_sw)(type KiCad)(uri "$(KIPRJMOD)/lib/custom_sw.pretty")(options "")(descr ""))
+  (lib (name Bourn_PTL_Slider)(type KiCad)(uri "$(KIPRJMOD)/lib/Bourn_PTL_Slider.pretty")(options "")(descr ""))
+)

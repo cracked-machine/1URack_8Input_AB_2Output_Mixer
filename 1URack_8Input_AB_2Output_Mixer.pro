@@ -1,4 +1,4 @@
-update=Saturday, 05 May 2018 'amt' 09:30:48
+update=Monday, 07 May 2018 'pmt' 21:34:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=lib
@@ -62,13 +72,6 @@ LibName30=lib/pot_numbered
 LibName31=lib/socket_custom
 LibName32=lib/sw_custom
 LibName33=switches
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=docs/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName34=leds
+LibName35=mechanical
+LibName36=lib/npot_led
