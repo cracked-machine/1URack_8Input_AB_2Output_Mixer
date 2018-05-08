@@ -1,4 +1,4 @@
-update=Monday, 07 May 2018 'pmt' 21:34:45
+update=Tuesday, 08 May 2018 'amt' 07:16:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -75,3 +75,4 @@ LibName33=switches
 LibName34=leds
 LibName35=mechanical
 LibName36=lib/npot_led
+LibName37=lib/tl072_inversedinputs
