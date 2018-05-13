@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Audio-JackMono_Tip3_Sw2_Slv1
+D 2-pin audio jack receptable (mono/TS connector) with switching contact
+K audio jack receptable mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+#End Doc Library
