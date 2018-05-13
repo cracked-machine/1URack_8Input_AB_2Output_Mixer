@@ -3,10 +3,10 @@
   (general
     (links 138)
     (no_connects 138)
-    (area 50.724999 76.124999 529.665001 119.455001)
+    (area 50.724999 76.124999 529.665001 169.947001)
     (thickness 1.6)
     (drawings 4)
-    (tracks 10)
+    (tracks 0)
     (zones 0)
     (modules 57)
     (nets 44)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.75)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (user_trace_width 1)
@@ -65,7 +65,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -255,7 +255,7 @@
   )
 
   (module DailywellSwitches:Dailywell_SPDT (layer F.Cu) (tedit 5AF76124) (tstamp 5AF77A83)
-    (at 292.1 104.14 90)
+    (at 299.72 104.14 90)
     (path /5AF84BEE)
     (fp_text reference SW_AB8 (at 3.81 0 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -279,7 +279,7 @@
   )
 
   (module DailywellSwitches:Dailywell_SPDT (layer F.Cu) (tedit 5AF76124) (tstamp 5AF77A75)
-    (at 259.08 104.14 90)
+    (at 265.43 104.14 90)
     (path /5AF84964)
     (fp_text reference SW_AB7 (at 3.175 0 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -303,7 +303,7 @@
   )
 
   (module DailywellSwitches:Dailywell_SPDT (layer F.Cu) (tedit 5AF76124) (tstamp 5AF77A67)
-    (at 226.06 104.14 90)
+    (at 231.14 103.8606 90)
     (path /5AF84883)
     (fp_text reference SW_AB6 (at 3.81 0 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -327,7 +327,7 @@
   )
 
   (module DailywellSwitches:Dailywell_SPDT (layer F.Cu) (tedit 5AF76124) (tstamp 5AF77A59)
-    (at 193.04 104.14 90)
+    (at 196.85 104.14 90)
     (path /5AF840E2)
     (fp_text reference SW_AB5 (at 3.175 0 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -351,7 +351,7 @@
   )
 
   (module DailywellSwitches:Dailywell_SPDT (layer F.Cu) (tedit 5AF76124) (tstamp 5AF77A4B)
-    (at 160.02 104.14 90)
+    (at 162.56 104.14 90)
     (path /5AF84000)
     (fp_text reference SW_AB4 (at 3.175 0 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -375,7 +375,7 @@
   )
 
   (module DailywellSwitches:Dailywell_SPDT (layer F.Cu) (tedit 5AF76124) (tstamp 5AF77A3D)
-    (at 127 104.14 90)
+    (at 128.27 104.14 90)
     (path /5AF83DA6)
     (fp_text reference SW_AB3 (at 0.0508 6.9596 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -447,7 +447,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF77A13)
-    (at 292.1 111.76 180)
+    (at 299.72 111.76 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF1091F)
@@ -480,7 +480,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF77A0D)
-    (at 259.08 111.76 180)
+    (at 265.43 111.76 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF108E9)
@@ -513,7 +513,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF77A07)
-    (at 226.06 111.76 180)
+    (at 231.14 111.4806 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF108B3)
@@ -546,7 +546,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF77A01)
-    (at 193.04 111.76 180)
+    (at 196.85 111.76 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF0F5A7)
@@ -579,7 +579,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779FB)
-    (at 160.02 111.76 180)
+    (at 162.56 111.76 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF0F260)
@@ -612,7 +612,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779F5)
-    (at 127 111.76)
+    (at 128.27 111.76)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF0F075)
@@ -843,7 +843,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779CB)
-    (at 292.1 96.52)
+    (at 299.72 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF108F9)
@@ -876,7 +876,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779C5)
-    (at 259.08 96.52)
+    (at 265.43 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF108C3)
@@ -909,7 +909,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779BF)
-    (at 226.06 96.52)
+    (at 231.14 96.2406)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF1088D)
@@ -942,7 +942,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779B9)
-    (at 193.04 96.52)
+    (at 196.85 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF0F581)
@@ -975,7 +975,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779B3)
-    (at 160.02 96.52)
+    (at 162.56 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF0F23A)
@@ -1008,7 +1008,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58307B90) (tstamp 5AF779AD)
-    (at 127 96.52)
+    (at 128.27 96.52)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5AF0F04F)
@@ -1107,7 +1107,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF7798D)
-    (at 292.1 85.598)
+    (at 299.72 85.598)
     (path /5AF76B81)
     (fp_text reference J_IN8 (at 0 -6.858) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1133,7 +1133,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF7797E)
-    (at 259.08 86.0806)
+    (at 265.43 86.0806)
     (path /5AF76891)
     (fp_text reference J_IN7 (at 0 -6.7056) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1159,7 +1159,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF7796F)
-    (at 226.06 86.0806)
+    (at 231.14 85.8012)
     (path /5AF767B5)
     (fp_text reference J_IN6 (at 0 -6.7056) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1185,7 +1185,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF77960)
-    (at 193.04 86.36)
+    (at 196.85 86.36)
     (path /5AF7648D)
     (fp_text reference J_IN5 (at 0 -6.35) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1211,7 +1211,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF77951)
-    (at 160.02 86.0806)
+    (at 162.56 86.0806)
     (path /5AF763B3)
     (fp_text reference J_IN4 (at 0 -6.7056) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1237,7 +1237,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF77942)
-    (at 127 85.7504)
+    (at 128.27 86.36)
     (path /5AF75BED)
     (fp_text reference J_IN3 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1263,7 +1263,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF77933)
-    (at 93.98 85.598)
+    (at 93.98 86.36)
     (path /5AF75995)
     (fp_text reference J_IN2 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1289,7 +1289,7 @@
   )
 
   (module ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301BM (layer F.Cu) (tedit 5AF75277) (tstamp 5AF77924)
-    (at 59.563 85.725)
+    (at 59.563 86.36)
     (path /5AF74330)
     (fp_text reference J_IN1 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1517,7 +1517,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78D2E)
-    (at 74.803 96.647 90)
+    (at 74.803 96.52 90)
     (path /5AF0C4F0)
     (fp_text reference VR_FADER1 (at 0 8.89 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1585,7 +1585,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78D5A)
-    (at 141.0335 96.266 90)
+    (at 142.3035 96.52 90)
     (path /5AF0F069)
     (fp_text reference VR_FADER3 (at 0 8.89 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1619,7 +1619,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78D70)
-    (at 174.0535 96.774 90)
+    (at 176.53 96.52 90)
     (path /5AF0F254)
     (fp_text reference VR_FADER4 (at 0 8.89 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1653,7 +1653,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78D86)
-    (at 207.0735 96.774 90)
+    (at 210.82 96.52 90)
     (path /5AF0F59B)
     (fp_text reference VR_FADER5 (at -18.669 0.0635 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1687,7 +1687,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78D9C)
-    (at 240.0935 96.774 90)
+    (at 245.11 96.2406 90)
     (path /5AF108A7)
     (fp_text reference VR_FADER6 (at -18.669 0.0635 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1721,7 +1721,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78DB2)
-    (at 273.1135 96.266 90)
+    (at 279.4635 96.52 90)
     (path /5AF108DD)
     (fp_text reference VR_FADER7 (at 18.161 -0.0635 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1755,7 +1755,7 @@
   )
 
   (module Bourn_PTL_Slider:Slider_PTL20_LED_35MM (layer F.Cu) (tedit 5AF0B984) (tstamp 5AF78DC8)
-    (at 306.07 96.266 90)
+    (at 313.69 96.52 90)
     (path /5AF10913)
     (fp_text reference VR_FADER8 (at 18.796 0 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.015)))
@@ -1975,16 +1975,5 @@
   (gr_line (start 50.8 119.38) (end 529.59 119.38) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 529.59 76.2) (end 50.8 76.2) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 50.8 76.2) (end 50.8 119.38) (layer Edge.Cuts) (width 0.15))
-
-  (segment (start 58.213 99.742) (end 59.563 101.092) (width 0.75) (layer F.Cu) (net 4))
-  (segment (start 59.563 101.092) (end 59.563 104.267) (width 0.75) (layer F.Cu) (net 4))
-  (segment (start 58.213 96.647) (end 58.213 99.742) (width 0.75) (layer F.Cu) (net 4))
-  (segment (start 73.533 87.757) (end 73.533 111.633) (width 0.75) (layer F.Cu) (net 14))
-  (segment (start 66.7004 80.9244) (end 73.533 87.757) (width 0.75) (layer F.Cu) (net 14))
-  (segment (start 59.563 80.9244) (end 66.7004 80.9244) (width 0.75) (layer F.Cu) (net 14))
-  (segment (start 59.563 80.9244) (end 59.563 79.9244) (width 0.25) (layer F.Cu) (net 14))
-  (segment (start 71.0565 101.7905) (end 65.913 96.647) (width 0.75) (layer F.Cu) (net 22))
-  (segment (start 65.913 96.647) (end 60.913 96.647) (width 0.75) (layer F.Cu) (net 22))
-  (segment (start 71.0565 111.633) (end 71.0565 101.7905) (width 0.75) (layer F.Cu) (net 22))
 
 )
