@@ -1,4 +1,4 @@
-update=Sunday, 13 May 2018 'amt' 09:32:40
+update=24-05-2018 1:24:53 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=docs/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=lib
@@ -78,3 +68,13 @@ LibName36=lib/npot_led
 LibName37=lib/tl072_inversedinputs
 LibName38=lib/Conn_audio-jackmono_tip3_sw2_slv1
 LibName39=lib/EurorackPowerConnector_2x5Pin
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

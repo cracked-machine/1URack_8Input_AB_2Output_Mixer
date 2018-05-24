@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>H:\Workspace\ElectronicsProjects\EffectsPedals\Switch\1URack_8Input_AB_2Output_Mixer\1URack_8Input_AB_2Output_Mixer.sch</source>
-    <date>12-05-2018 1:01:11 AM</date>
+    <date>24-05-2018 1:25:15 AM</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,25 +19,12 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J_IN1">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AED4D8B</tstamp>
-    </comp>
     <comp ref="R_ChanAB_OAin_Rin1">
       <value>10K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AED4EAA</tstamp>
-    </comp>
-    <comp ref="SW_AB1">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AED4FB2</tstamp>
     </comp>
     <comp ref="R_ChanA_OAin_Rf1">
       <value>10K</value>
@@ -47,17 +34,11 @@
       <tstamp>5AED5436</tstamp>
     </comp>
     <comp ref="R_ChanA_OAout_Rin1">
-      <value>56K</value>
+      <value>22K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AED5536</tstamp>
-    </comp>
-    <comp ref="J_ChanA_out1">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AED5AC9</tstamp>
     </comp>
     <comp ref="R_ChanB_OAin_Rf1">
       <value>10K</value>
@@ -67,78 +48,53 @@
       <tstamp>5AED5EE1</tstamp>
     </comp>
     <comp ref="R_ChanB_OAout_Rin1">
-      <value>56K</value>
+      <value>22K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AED5EEA</tstamp>
     </comp>
-    <comp ref="J_ChanB_out1">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AED676D</tstamp>
-    </comp>
-    <comp ref="J_POWER1">
-      <value>Conn_02x05_Top_Bottom</value>
-      <footprint>Pin_Headers:Pin_Header_Angled_2x05_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="Conn_02x05_Top_Bottom"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AEE3B36</tstamp>
-    </comp>
-    <comp ref="C_BYNEG1">
+    <comp ref="C_PW_BYNEG1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AEE7C20</tstamp>
     </comp>
-    <comp ref="C_BYPOS1">
+    <comp ref="C_PW_BYPOS1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AEE7CCD</tstamp>
     </comp>
-    <comp ref="C_OUT1_POS1">
+    <comp ref="C_ChanB_BYPOS1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AEEC0D1</tstamp>
     </comp>
-    <comp ref="C_OUT1_NEG1">
+    <comp ref="C_ChanB_BYNEG1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AEED03C</tstamp>
     </comp>
-    <comp ref="Q_POL1">
-      <value>Q_PMOS_GDS</value>
-      <libsource lib="device" part="Q_PMOS_GDS"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AEE93DE</tstamp>
-    </comp>
-    <comp ref="FADER1">
-      <value>B100K</value>
+    <comp ref="VR_FADER1">
+      <value>B50K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0C4F0</tstamp>
     </comp>
     <comp ref="R_LED1">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0E2C9</tstamp>
-    </comp>
-    <comp ref="J_IN2">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0EE5B</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin2">
       <value>10K</value>
@@ -147,32 +103,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0EE62</tstamp>
     </comp>
-    <comp ref="SW_AB2">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0EE68</tstamp>
-    </comp>
-    <comp ref="FADER2">
-      <value>B100K</value>
+    <comp ref="VR_FADER2">
+      <value>B5K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0EE7C</tstamp>
     </comp>
     <comp ref="R_LED2">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0EE88</tstamp>
-    </comp>
-    <comp ref="J_IN3">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0F048</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin3">
       <value>10K</value>
@@ -181,32 +124,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F04F</tstamp>
     </comp>
-    <comp ref="SW_AB3">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0F055</tstamp>
-    </comp>
-    <comp ref="FADER3">
-      <value>B100K</value>
+    <comp ref="VR_FADER3">
+      <value>B50K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F069</tstamp>
     </comp>
     <comp ref="R_LED3">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F075</tstamp>
-    </comp>
-    <comp ref="J_IN4">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0F233</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin4">
       <value>10K</value>
@@ -215,32 +145,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F23A</tstamp>
     </comp>
-    <comp ref="SW_AB4">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0F240</tstamp>
-    </comp>
-    <comp ref="FADER4">
-      <value>B100K</value>
+    <comp ref="VR_FADER4">
+      <value>B5K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F254</tstamp>
     </comp>
     <comp ref="R_LED4">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F260</tstamp>
-    </comp>
-    <comp ref="J_IN5">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0F57A</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin5">
       <value>10K</value>
@@ -249,32 +166,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F581</tstamp>
     </comp>
-    <comp ref="SW_AB5">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF0F587</tstamp>
-    </comp>
-    <comp ref="FADER5">
-      <value>B100K</value>
+    <comp ref="VR_FADER5">
+      <value>B50K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F59B</tstamp>
     </comp>
     <comp ref="R_LED5">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF0F5A7</tstamp>
-    </comp>
-    <comp ref="J_IN6">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF10886</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin6">
       <value>10K</value>
@@ -283,32 +187,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF1088D</tstamp>
     </comp>
-    <comp ref="SW_AB6">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF10893</tstamp>
-    </comp>
-    <comp ref="FADER6">
-      <value>B100K</value>
+    <comp ref="VR_FADER6">
+      <value>B50K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF108A7</tstamp>
     </comp>
     <comp ref="R_LED6">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF108B3</tstamp>
-    </comp>
-    <comp ref="J_IN7">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF108BC</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin7">
       <value>10K</value>
@@ -317,32 +208,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF108C3</tstamp>
     </comp>
-    <comp ref="SW_AB7">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF108C9</tstamp>
-    </comp>
-    <comp ref="FADER7">
-      <value>B100K</value>
+    <comp ref="VR_FADER7">
+      <value>B50K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF108DD</tstamp>
     </comp>
     <comp ref="R_LED7">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF108E9</tstamp>
-    </comp>
-    <comp ref="J_IN8">
-      <value>Audio-Jack-2</value>
-      <libsource lib="conn" part="Audio-Jack-2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF108F2</tstamp>
     </comp>
     <comp ref="R_ChanAB_OAin_Rin8">
       <value>10K</value>
@@ -351,89 +229,222 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF108F9</tstamp>
     </comp>
-    <comp ref="SW_AB8">
-      <value>SW_SP3T</value>
-      <footprint>custom_sw:SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM</footprint>
-      <libsource lib="switches" part="SW_SP3T"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF108FF</tstamp>
-    </comp>
-    <comp ref="FADER8">
-      <value>B100K</value>
+    <comp ref="VR_FADER8">
+      <value>B50K</value>
       <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
       <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF10913</tstamp>
     </comp>
     <comp ref="R_LED8">
-      <value>560R</value>
+      <value>2K2</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF1091F</tstamp>
     </comp>
-    <comp ref="ChanA_OA1">
+    <comp ref="U_ChanA_OA1">
       <value>TL072_InversedInputs</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
       <libsource lib="tl072_inversedinputs" part="TL072_InversedInputs"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF155B6</tstamp>
     </comp>
-    <comp ref="ChanB_OA1">
+    <comp ref="U_ChanB_OA1">
       <value>TL072_InversedInputs</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
       <libsource lib="tl072_inversedinputs" part="TL072_InversedInputs"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF16B27</tstamp>
     </comp>
-    <comp ref="U_OUT1">
-      <value>TL072_InversedInputs</value>
-      <libsource lib="tl072_inversedinputs" part="TL072_InversedInputs"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF17A1D</tstamp>
-    </comp>
-    <comp ref="C_OUT2_POS1">
+    <comp ref="C_ChanA_POSBY1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF199C8</tstamp>
     </comp>
-    <comp ref="C_OUT2_NEG1">
+    <comp ref="C_ChanA_NEGBY1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AF199D3</tstamp>
     </comp>
-    <comp ref="U_OUT2">
-      <value>TL072_InversedInputs</value>
-      <libsource lib="tl072_inversedinputs" part="TL072_InversedInputs"/>
+    <comp ref="J_IN1">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF199DE</tstamp>
+      <tstamp>5AF74330</tstamp>
+    </comp>
+    <comp ref="J_IN2">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF75995</tstamp>
+    </comp>
+    <comp ref="J_IN3">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF75BED</tstamp>
+    </comp>
+    <comp ref="J_IN4">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF763B3</tstamp>
+    </comp>
+    <comp ref="J_IN5">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF7648D</tstamp>
+    </comp>
+    <comp ref="J_IN6">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF767B5</tstamp>
+    </comp>
+    <comp ref="J_IN7">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF76891</tstamp>
+    </comp>
+    <comp ref="J_IN8">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF76B81</tstamp>
+    </comp>
+    <comp ref="J_ChanA_out1">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF79030</tstamp>
+    </comp>
+    <comp ref="J_ChanB_out1">
+      <value>Audio-JackMono_Tip3_Sw2_Slv1</value>
+      <footprint>ThonkiConn_3:Conn_3.5mmJackMono_Vertical_PJ301M-12</footprint>
+      <libsource lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF7A08C</tstamp>
+    </comp>
+    <comp ref="SW_AB1">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF82946</tstamp>
+    </comp>
+    <comp ref="SW_AB2">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF82D6B</tstamp>
+    </comp>
+    <comp ref="SW_AB3">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF83DA6</tstamp>
+    </comp>
+    <comp ref="SW_AB4">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF84000</tstamp>
+    </comp>
+    <comp ref="SW_AB5">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF840E2</tstamp>
+    </comp>
+    <comp ref="SW_AB6">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF84883</tstamp>
+    </comp>
+    <comp ref="SW_AB7">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF84964</tstamp>
+    </comp>
+    <comp ref="SW_AB8">
+      <value>SW_SPDT</value>
+      <footprint>DailywellSwitches:Dailywell_SPDT</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF84BEE</tstamp>
+    </comp>
+    <comp ref="J_PWR1">
+      <value>EurorackPowerConnector_2x5Pin</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm</footprint>
+      <libsource lib="EurorackPowerConnector_2x5Pin" part="EurorackPowerConnector_2x5Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF87497</tstamp>
     </comp>
     <comp ref="VR_ChanA_OAout_Rf1">
-      <value>B100K</value>
-      <libsource lib="pot_numbered" part="NPOT"/>
+      <value>B50K</value>
+      <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
+      <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF65236</tstamp>
+      <tstamp>5B03827A</tstamp>
     </comp>
     <comp ref="VR_ChanB_OAout_Rf1">
-      <value>B100K</value>
-      <libsource lib="pot_numbered" part="NPOT"/>
+      <value>B50K</value>
+      <footprint>Bourn_PTL_Slider:Slider_PTL20_LED_35MM</footprint>
+      <libsource lib="npot_led" part="NPOT_LED"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5AF8AF45</tstamp>
+      <tstamp>5B0391B1</tstamp>
+    </comp>
+    <comp ref="R_ChanB_OAout1">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B043D8D</tstamp>
+    </comp>
+    <comp ref="R_ChanA_OAout1">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B043EFC</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="conn" part="Audio-Jack-2">
-      <description>2-pin audio jack receptable (mono/TS connector)</description>
+    <libpart lib="Conn_audio-jackmono_tip3_sw2_slv1" part="Audio-JackMono_Tip3_Sw2_Slv1">
+      <description>2-pin audio jack receptable (mono/TS connector) with switching contact</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Audio-Jack-2</field>
+        <field name="Value">Audio-JackMono_Tip3_Sw2_Slv1</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="C">
@@ -450,7 +461,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="Conn_02x05_Top_Bottom">
+    <libpart lib="EurorackPowerConnector_2x5Pin" part="EurorackPowerConnector_2x5Pin">
       <description>Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)</description>
       <docs>~</docs>
       <footprints>
@@ -459,30 +470,19 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x05_Top_Bottom</field>
+        <field name="Value">EurorackPowerConnector_2x5Pin</field>
       </fields>
       <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-        <pin num="8" name="Pin_8" type="passive"/>
-        <pin num="9" name="Pin_9" type="passive"/>
-        <pin num="10" name="Pin_10" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="pot_numbered" part="NPOT">
-      <fields>
-        <field name="Reference">RV</field>
-        <field name="Value">NPOT</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
+        <pin num="1" name="Pin_1" type="power_out"/>
+        <pin num="2" name="Pin_2" type="power_out"/>
+        <pin num="3" name="Pin_3" type="power_out"/>
+        <pin num="4" name="Pin_4" type="power_out"/>
+        <pin num="5" name="Pin_5" type="power_out"/>
+        <pin num="6" name="Pin_6" type="power_out"/>
+        <pin num="7" name="Pin_7" type="power_out"/>
+        <pin num="8" name="Pin_8" type="power_out"/>
+        <pin num="9" name="Pin_9" type="power_out"/>
+        <pin num="10" name="Pin_10" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="npot_led" part="NPOT_LED">
@@ -496,18 +496,6 @@
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="~" type="input"/>
         <pin num="5" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_PMOS_GDS">
-      <description>Transistor P-MOSFET with substrate diode (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_PMOS_GDS</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="D" type="passive"/>
-        <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
@@ -525,21 +513,16 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="switches" part="SW_SP3T">
-      <description>Switch, three position, single pole triple throw, 3 position switch, SP3T</description>
-      <footprints>
-        <fp>SW*</fp>
-        <fp>SP3T*</fp>
-      </footprints>
+    <libpart lib="switches" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
       <fields>
         <field name="Reference">SW</field>
-        <field name="Value">SW_SP3T</field>
+        <field name="Value">SW_SPDT</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="tl072_inversedinputs" part="TL072_InversedInputs">
@@ -563,12 +546,6 @@
     <library logical="device">
       <uri>H:\Programs\KiCad\share\kicad\library\device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>H:\Programs\KiCad\share\kicad\library\conn.lib</uri>
-    </library>
-    <library logical="pot_numbered">
-      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\Switch\1URack_8Input_AB_2Output_Mixer\lib\pot_numbered.lib</uri>
-    </library>
     <library logical="switches">
       <uri>H:\Programs\KiCad\share\kicad\library\switches.lib</uri>
     </library>
@@ -578,304 +555,303 @@
     <library logical="tl072_inversedinputs">
       <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\Switch\1URack_8Input_AB_2Output_Mixer\lib\tl072_inversedinputs.lib</uri>
     </library>
+    <library logical="Conn_audio-jackmono_tip3_sw2_slv1">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\Switch\1URack_8Input_AB_2Output_Mixer\lib\Conn_audio-jackmono_tip3_sw2_slv1.lib</uri>
+    </library>
+    <library logical="EurorackPowerConnector_2x5Pin">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\Switch\1URack_8Input_AB_2Output_Mixer\lib\EurorackPowerConnector_2x5Pin.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(FADER6-Pad2)">
-      <node ref="FADER6" pin="2"/>
-      <node ref="R_ChanAB_OAin_Rin6" pin="2"/>
+    <net code="1" name="Net-(R_LED8-Pad1)">
+      <node ref="R_LED8" pin="1"/>
+      <node ref="VR_FADER8" pin="5"/>
     </net>
-    <net code="2" name="Net-(SW_AB6-Pad2)">
-      <node ref="SW_AB6" pin="2"/>
+    <net code="2" name="/12V+">
+      <node ref="C_ChanA_POSBY1" pin="1"/>
+      <node ref="VR_FADER5" pin="4"/>
+      <node ref="U_ChanA_OA1" pin="8"/>
+      <node ref="J_PWR1" pin="1"/>
+      <node ref="VR_FADER4" pin="4"/>
+      <node ref="VR_FADER6" pin="4"/>
+      <node ref="C_PW_BYPOS1" pin="1"/>
+      <node ref="U_ChanB_OA1" pin="8"/>
+      <node ref="VR_FADER3" pin="4"/>
+      <node ref="VR_FADER7" pin="4"/>
+      <node ref="VR_FADER1" pin="4"/>
+      <node ref="VR_ChanA_OAout_Rf1" pin="4"/>
+      <node ref="VR_FADER2" pin="4"/>
+      <node ref="VR_ChanB_OAout_Rf1" pin="4"/>
+      <node ref="VR_FADER8" pin="4"/>
+      <node ref="C_ChanB_BYPOS1" pin="1"/>
     </net>
-    <net code="3" name="Net-(R_ChanAB_OAin_Rin6-Pad1)">
-      <node ref="R_ChanAB_OAin_Rin6" pin="1"/>
-      <node ref="SW_AB6" pin="3"/>
+    <net code="3" name="Net-(J_IN8-Pad3)">
+      <node ref="VR_FADER8" pin="1"/>
+      <node ref="J_IN8" pin="3"/>
     </net>
-    <net code="4" name="Net-(FADER5-Pad5)">
-      <node ref="FADER5" pin="5"/>
-      <node ref="R_LED5" pin="1"/>
-    </net>
-    <net code="5" name="/12V+">
-      <node ref="FADER6" pin="4"/>
-      <node ref="U_OUT2" pin="8"/>
-      <node ref="Q_POL1" pin="3"/>
-      <node ref="C_OUT2_POS1" pin="1"/>
-      <node ref="U_OUT1" pin="8"/>
-      <node ref="FADER4" pin="4"/>
-      <node ref="C_OUT1_POS1" pin="1"/>
-      <node ref="FADER2" pin="4"/>
-      <node ref="FADER8" pin="4"/>
-      <node ref="FADER3" pin="4"/>
-      <node ref="FADER7" pin="4"/>
-      <node ref="FADER1" pin="4"/>
-      <node ref="FADER5" pin="4"/>
-    </net>
-    <net code="6" name="Net-(FADER5-Pad1)">
-      <node ref="FADER5" pin="1"/>
+    <net code="4" name="/GND">
+      <node ref="C_PW_BYPOS1" pin="2"/>
+      <node ref="C_PW_BYNEG1" pin="1"/>
+      <node ref="R_LED1" pin="2"/>
       <node ref="J_IN5" pin="1"/>
+      <node ref="J_IN1" pin="1"/>
+      <node ref="J_IN1" pin="2"/>
+      <node ref="J_IN2" pin="1"/>
+      <node ref="J_IN2" pin="2"/>
+      <node ref="J_IN3" pin="1"/>
+      <node ref="J_IN3" pin="2"/>
+      <node ref="J_IN4" pin="1"/>
+      <node ref="J_IN4" pin="2"/>
+      <node ref="J_IN5" pin="2"/>
+      <node ref="J_IN6" pin="2"/>
+      <node ref="J_IN7" pin="1"/>
+      <node ref="J_IN7" pin="2"/>
+      <node ref="J_IN8" pin="1"/>
+      <node ref="J_IN8" pin="2"/>
+      <node ref="J_ChanA_out1" pin="1"/>
+      <node ref="U_ChanB_OA1" pin="3"/>
+      <node ref="J_ChanA_out1" pin="2"/>
+      <node ref="VR_FADER2" pin="3"/>
+      <node ref="R_LED2" pin="2"/>
+      <node ref="VR_FADER5" pin="3"/>
+      <node ref="R_LED5" pin="2"/>
+      <node ref="R_LED3" pin="2"/>
+      <node ref="VR_FADER3" pin="3"/>
+      <node ref="C_ChanB_BYPOS1" pin="2"/>
+      <node ref="C_ChanB_BYNEG1" pin="2"/>
+      <node ref="VR_FADER4" pin="3"/>
+      <node ref="R_LED4" pin="2"/>
+      <node ref="VR_FADER1" pin="3"/>
+      <node ref="J_PWR1" pin="5"/>
+      <node ref="R_ChanB_OAout1" pin="2"/>
+      <node ref="R_ChanA_OAout1" pin="2"/>
+      <node ref="J_ChanB_out1" pin="1"/>
+      <node ref="R_LED6" pin="2"/>
+      <node ref="VR_FADER6" pin="3"/>
+      <node ref="VR_FADER7" pin="3"/>
+      <node ref="R_LED7" pin="2"/>
+      <node ref="C_ChanA_POSBY1" pin="2"/>
+      <node ref="U_ChanA_OA1" pin="3"/>
+      <node ref="U_ChanB_OA1" pin="5"/>
+      <node ref="U_ChanA_OA1" pin="5"/>
+      <node ref="J_IN6" pin="1"/>
+      <node ref="R_LED8" pin="2"/>
+      <node ref="J_ChanB_out1" pin="2"/>
+      <node ref="C_ChanA_NEGBY1" pin="2"/>
+      <node ref="VR_FADER8" pin="3"/>
     </net>
-    <net code="7" name="Net-(SW_AB7-Pad2)">
-      <node ref="SW_AB7" pin="2"/>
-    </net>
-    <net code="8" name="Net-(R_ChanAB_OAin_Rin7-Pad1)">
-      <node ref="R_ChanAB_OAin_Rin7" pin="1"/>
-      <node ref="SW_AB7" pin="3"/>
-    </net>
-    <net code="9" name="Net-(FADER6-Pad5)">
-      <node ref="FADER6" pin="5"/>
+    <net code="5" name="Net-(R_LED6-Pad1)">
+      <node ref="VR_FADER6" pin="5"/>
       <node ref="R_LED6" pin="1"/>
     </net>
-    <net code="10" name="/GND">
-      <node ref="FADER3" pin="3"/>
-      <node ref="C_OUT1_NEG1" pin="2"/>
-      <node ref="C_OUT2_POS1" pin="2"/>
-      <node ref="Q_POL1" pin="1"/>
-      <node ref="C_BYNEG1" pin="1"/>
-      <node ref="ChanA_OA1" pin="5"/>
-      <node ref="ChanA_OA1" pin="3"/>
-      <node ref="R_LED8" pin="2"/>
-      <node ref="FADER7" pin="3"/>
-      <node ref="R_LED5" pin="2"/>
-      <node ref="J_ChanB_out1" pin="2"/>
-      <node ref="J_ChanA_out1" pin="2"/>
-      <node ref="R_LED7" pin="2"/>
-      <node ref="R_LED3" pin="2"/>
-      <node ref="C_BYPOS1" pin="2"/>
-      <node ref="C_OUT2_NEG1" pin="2"/>
-      <node ref="J_IN8" pin="2"/>
-      <node ref="R_LED2" pin="2"/>
-      <node ref="R_LED6" pin="2"/>
-      <node ref="J_IN6" pin="2"/>
-      <node ref="J_IN2" pin="2"/>
-      <node ref="FADER6" pin="3"/>
-      <node ref="FADER5" pin="3"/>
-      <node ref="R_LED1" pin="2"/>
-      <node ref="ChanB_OA1" pin="5"/>
-      <node ref="J_POWER1" pin="3"/>
-      <node ref="J_IN3" pin="2"/>
-      <node ref="FADER4" pin="3"/>
-      <node ref="C_OUT1_POS1" pin="2"/>
-      <node ref="J_IN5" pin="2"/>
-      <node ref="R_LED4" pin="2"/>
-      <node ref="J_IN1" pin="2"/>
-      <node ref="J_IN7" pin="2"/>
-      <node ref="ChanB_OA1" pin="3"/>
-      <node ref="J_IN4" pin="2"/>
-      <node ref="FADER1" pin="3"/>
-      <node ref="FADER2" pin="3"/>
-      <node ref="FADER8" pin="3"/>
+    <net code="6" name="Net-(R_ChanAB_OAin_Rin7-Pad1)">
+      <node ref="SW_AB7" pin="2"/>
+      <node ref="R_ChanAB_OAin_Rin7" pin="1"/>
     </net>
-    <net code="11" name="Net-(FADER6-Pad1)">
-      <node ref="J_IN6" pin="1"/>
-      <node ref="FADER6" pin="1"/>
-    </net>
-    <net code="12" name="Net-(FADER4-Pad1)">
-      <node ref="FADER4" pin="1"/>
-      <node ref="J_IN4" pin="1"/>
-    </net>
-    <net code="13" name="Net-(FADER4-Pad5)">
-      <node ref="R_LED4" pin="1"/>
-      <node ref="FADER4" pin="5"/>
-    </net>
-    <net code="14" name="Net-(FADER4-Pad2)">
-      <node ref="FADER4" pin="2"/>
-      <node ref="R_ChanAB_OAin_Rin4" pin="2"/>
-    </net>
-    <net code="15" name="Net-(R_ChanAB_OAin_Rin4-Pad1)">
-      <node ref="SW_AB4" pin="3"/>
-      <node ref="R_ChanAB_OAin_Rin4" pin="1"/>
-    </net>
-    <net code="16" name="Net-(SW_AB4-Pad2)">
-      <node ref="SW_AB4" pin="2"/>
-    </net>
-    <net code="17" name="Net-(R_ChanAB_OAin_Rin5-Pad1)">
-      <node ref="SW_AB5" pin="3"/>
-      <node ref="R_ChanAB_OAin_Rin5" pin="1"/>
-    </net>
-    <net code="18" name="Net-(FADER5-Pad2)">
-      <node ref="FADER5" pin="2"/>
-      <node ref="R_ChanAB_OAin_Rin5" pin="2"/>
-    </net>
-    <net code="19" name="Net-(SW_AB5-Pad2)">
-      <node ref="SW_AB5" pin="2"/>
-    </net>
-    <net code="20" name="Net-(FADER8-Pad5)">
-      <node ref="FADER8" pin="5"/>
-      <node ref="R_LED8" pin="1"/>
-    </net>
-    <net code="21" name="/12V-">
-      <node ref="J_POWER1" pin="1"/>
-      <node ref="C_BYNEG1" pin="2"/>
-      <node ref="U_OUT2" pin="4"/>
-      <node ref="C_OUT2_NEG1" pin="1"/>
-      <node ref="C_OUT1_NEG1" pin="1"/>
-      <node ref="U_OUT1" pin="4"/>
-    </net>
-    <net code="22" name="Net-(FADER7-Pad5)">
-      <node ref="R_LED7" pin="1"/>
-      <node ref="FADER7" pin="5"/>
-    </net>
-    <net code="23" name="Net-(FADER7-Pad1)">
-      <node ref="FADER7" pin="1"/>
-      <node ref="J_IN7" pin="1"/>
-    </net>
-    <net code="24" name="Net-(R_ChanAB_OAin_Rin8-Pad1)">
-      <node ref="SW_AB8" pin="3"/>
-      <node ref="R_ChanAB_OAin_Rin8" pin="1"/>
-    </net>
-    <net code="25" name="Net-(FADER7-Pad2)">
-      <node ref="FADER7" pin="2"/>
+    <net code="7" name="Net-(R_ChanAB_OAin_Rin7-Pad2)">
       <node ref="R_ChanAB_OAin_Rin7" pin="2"/>
+      <node ref="VR_FADER7" pin="2"/>
     </net>
-    <net code="26" name="Net-(FADER8-Pad1)">
-      <node ref="J_IN8" pin="1"/>
-      <node ref="FADER8" pin="1"/>
+    <net code="8" name="Net-(J_IN6-Pad3)">
+      <node ref="J_IN6" pin="3"/>
+      <node ref="VR_FADER6" pin="1"/>
     </net>
-    <net code="27" name="Net-(FADER8-Pad2)">
+    <net code="9" name="Net-(R_ChanAB_OAin_Rin6-Pad2)">
+      <node ref="VR_FADER6" pin="2"/>
+      <node ref="R_ChanAB_OAin_Rin6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R_ChanAB_OAin_Rin6-Pad1)">
+      <node ref="R_ChanAB_OAin_Rin6" pin="1"/>
+      <node ref="SW_AB6" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R_ChanAB_OAin_Rin8-Pad2)">
       <node ref="R_ChanAB_OAin_Rin8" pin="2"/>
-      <node ref="FADER8" pin="2"/>
+      <node ref="VR_FADER8" pin="2"/>
     </net>
-    <net code="28" name="Net-(FADER3-Pad5)">
-      <node ref="FADER3" pin="5"/>
-      <node ref="R_LED3" pin="1"/>
-    </net>
-    <net code="29" name="Net-(SW_AB8-Pad2)">
+    <net code="12" name="Net-(R_ChanAB_OAin_Rin8-Pad1)">
+      <node ref="R_ChanAB_OAin_Rin8" pin="1"/>
       <node ref="SW_AB8" pin="2"/>
     </net>
-    <net code="30" name="Net-(ChanB_OA1-Pad6)">
-      <node ref="ChanB_OA1" pin="6"/>
-      <node ref="R_ChanB_OAout_Rin1" pin="1"/>
-      <node ref="VR_ChanB_OAout_Rf1" pin="3"/>
+    <net code="13" name="Net-(R_LED7-Pad1)">
+      <node ref="VR_FADER7" pin="5"/>
+      <node ref="R_LED7" pin="1"/>
     </net>
-    <net code="31" name="Net-(ChanB_OA1-Pad7)">
+    <net code="14" name="Net-(J_IN7-Pad3)">
+      <node ref="J_IN7" pin="3"/>
+      <node ref="VR_FADER7" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J_PWR1-Pad4)">
+      <node ref="J_PWR1" pin="4"/>
+    </net>
+    <net code="16" name="Net-(J_PWR1-Pad3)">
+      <node ref="J_PWR1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(J_PWR1-Pad2)">
+      <node ref="J_PWR1" pin="2"/>
+    </net>
+    <net code="18" name="/12V-">
+      <node ref="C_ChanB_BYNEG1" pin="1"/>
+      <node ref="U_ChanB_OA1" pin="4"/>
+      <node ref="U_ChanA_OA1" pin="4"/>
+      <node ref="C_ChanA_NEGBY1" pin="1"/>
+      <node ref="C_PW_BYNEG1" pin="2"/>
+      <node ref="J_PWR1" pin="9"/>
+    </net>
+    <net code="19" name="Net-(R_ChanAB_OAin_Rin4-Pad1)">
+      <node ref="SW_AB4" pin="2"/>
+      <node ref="R_ChanAB_OAin_Rin4" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R_ChanAB_OAin_Rin3-Pad1)">
+      <node ref="R_ChanAB_OAin_Rin3" pin="1"/>
+      <node ref="SW_AB3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R_ChanAB_OAin_Rin2-Pad1)">
+      <node ref="R_ChanAB_OAin_Rin2" pin="1"/>
+      <node ref="SW_AB2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R_ChanB_OAout1-Pad1)">
+      <node ref="VR_ChanB_OAout_Rf1" pin="5"/>
+      <node ref="R_ChanB_OAout1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R_ChanA_OAout1-Pad1)">
+      <node ref="R_ChanA_OAout1" pin="1"/>
+      <node ref="VR_ChanA_OAout_Rf1" pin="5"/>
+    </net>
+    <net code="24" name="Net-(J_PWR1-Pad10)">
+      <node ref="J_PWR1" pin="10"/>
+    </net>
+    <net code="25" name="Net-(J_PWR1-Pad8)">
+      <node ref="J_PWR1" pin="8"/>
+    </net>
+    <net code="26" name="Net-(J_PWR1-Pad7)">
+      <node ref="J_PWR1" pin="7"/>
+    </net>
+    <net code="27" name="Net-(J_PWR1-Pad6)">
+      <node ref="J_PWR1" pin="6"/>
+    </net>
+    <net code="28" name="Net-(J_ChanB_out1-Pad3)">
+      <node ref="U_ChanB_OA1" pin="7"/>
       <node ref="VR_ChanB_OAout_Rf1" pin="2"/>
-      <node ref="ChanB_OA1" pin="7"/>
       <node ref="VR_ChanB_OAout_Rf1" pin="1"/>
-      <node ref="J_ChanB_out1" pin="1"/>
+      <node ref="J_ChanB_out1" pin="3"/>
     </net>
-    <net code="32" name="Net-(ChanB_OA1-Pad1)">
-      <node ref="ChanB_OA1" pin="1"/>
+    <net code="29" name="Net-(R_ChanB_OAout_Rin1-Pad1)">
+      <node ref="VR_ChanB_OAout_Rf1" pin="3"/>
+      <node ref="U_ChanB_OA1" pin="6"/>
+      <node ref="R_ChanB_OAout_Rin1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J_IN1-Pad3)">
+      <node ref="VR_FADER1" pin="1"/>
+      <node ref="J_IN1" pin="3"/>
+    </net>
+    <net code="31" name="Net-(R_LED1-Pad1)">
+      <node ref="VR_FADER1" pin="5"/>
+      <node ref="R_LED1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R_ChanB_OAin_Rf1-Pad2)">
+      <node ref="SW_AB3" pin="3"/>
+      <node ref="SW_AB7" pin="3"/>
+      <node ref="SW_AB4" pin="3"/>
+      <node ref="SW_AB2" pin="3"/>
+      <node ref="SW_AB5" pin="3"/>
+      <node ref="SW_AB1" pin="3"/>
+      <node ref="SW_AB6" pin="3"/>
+      <node ref="R_ChanB_OAin_Rf1" pin="2"/>
+      <node ref="SW_AB8" pin="3"/>
+      <node ref="U_ChanB_OA1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R_ChanAB_OAin_Rin1-Pad2)">
+      <node ref="VR_FADER1" pin="2"/>
+      <node ref="R_ChanAB_OAin_Rin1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R_ChanAB_OAin_Rin1-Pad1)">
+      <node ref="SW_AB1" pin="2"/>
+      <node ref="R_ChanAB_OAin_Rin1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R_ChanB_OAin_Rf1-Pad1)">
+      <node ref="U_ChanB_OA1" pin="1"/>
       <node ref="R_ChanB_OAout_Rin1" pin="2"/>
       <node ref="R_ChanB_OAin_Rf1" pin="1"/>
     </net>
-    <net code="33" name="Net-(ChanA_OA1-Pad7)">
-      <node ref="VR_ChanA_OAout_Rf1" pin="1"/>
-      <node ref="J_ChanA_out1" pin="1"/>
+    <net code="36" name="Net-(J_ChanA_out1-Pad3)">
+      <node ref="U_ChanA_OA1" pin="7"/>
       <node ref="VR_ChanA_OAout_Rf1" pin="2"/>
-      <node ref="ChanA_OA1" pin="7"/>
+      <node ref="VR_ChanA_OAout_Rf1" pin="1"/>
+      <node ref="J_ChanA_out1" pin="3"/>
     </net>
-    <net code="34" name="Net-(ChanA_OA1-Pad6)">
-      <node ref="VR_ChanA_OAout_Rf1" pin="3"/>
+    <net code="37" name="Net-(R_ChanA_OAout_Rin1-Pad1)">
       <node ref="R_ChanA_OAout_Rin1" pin="1"/>
-      <node ref="ChanA_OA1" pin="6"/>
+      <node ref="VR_ChanA_OAout_Rf1" pin="3"/>
+      <node ref="U_ChanA_OA1" pin="6"/>
     </net>
-    <net code="35" name="Net-(ChanA_OA1-Pad1)">
-      <node ref="R_ChanA_OAout_Rin1" pin="2"/>
+    <net code="38" name="Net-(R_ChanA_OAin_Rf1-Pad1)">
       <node ref="R_ChanA_OAin_Rf1" pin="1"/>
-      <node ref="ChanA_OA1" pin="1"/>
+      <node ref="R_ChanA_OAout_Rin1" pin="2"/>
+      <node ref="U_ChanA_OA1" pin="1"/>
     </net>
-    <net code="36" name="Net-(SW_AB1-Pad2)">
-      <node ref="SW_AB1" pin="2"/>
+    <net code="39" name="Net-(R_ChanAB_OAin_Rin5-Pad1)">
+      <node ref="R_ChanAB_OAin_Rin5" pin="1"/>
+      <node ref="SW_AB5" pin="2"/>
     </net>
-    <net code="37" name="Net-(ChanB_OA1-Pad2)">
-      <node ref="SW_AB8" pin="4"/>
-      <node ref="SW_AB3" pin="4"/>
-      <node ref="SW_AB2" pin="4"/>
-      <node ref="ChanB_OA1" pin="2"/>
-      <node ref="SW_AB4" pin="4"/>
-      <node ref="SW_AB5" pin="4"/>
-      <node ref="SW_AB6" pin="4"/>
-      <node ref="R_ChanB_OAin_Rf1" pin="2"/>
-      <node ref="SW_AB1" pin="4"/>
-      <node ref="SW_AB7" pin="4"/>
+    <net code="40" name="Net-(R_LED4-Pad1)">
+      <node ref="VR_FADER4" pin="5"/>
+      <node ref="R_LED4" pin="1"/>
     </net>
-    <net code="38" name="Net-(FADER1-Pad2)">
-      <node ref="FADER1" pin="2"/>
-      <node ref="R_ChanAB_OAin_Rin1" pin="2"/>
+    <net code="41" name="Net-(J_IN4-Pad3)">
+      <node ref="VR_FADER4" pin="1"/>
+      <node ref="J_IN4" pin="3"/>
     </net>
-    <net code="39" name="Net-(R_ChanAB_OAin_Rin1-Pad1)">
-      <node ref="SW_AB1" pin="3"/>
-      <node ref="R_ChanAB_OAin_Rin1" pin="1"/>
+    <net code="42" name="Net-(R_ChanAB_OAin_Rin4-Pad2)">
+      <node ref="R_ChanAB_OAin_Rin4" pin="2"/>
+      <node ref="VR_FADER4" pin="2"/>
     </net>
-    <net code="40" name="Net-(J_POWER1-Pad6)">
-      <node ref="J_POWER1" pin="6"/>
+    <net code="43" name="Net-(J_IN5-Pad3)">
+      <node ref="J_IN5" pin="3"/>
+      <node ref="VR_FADER5" pin="1"/>
     </net>
-    <net code="41" name="Net-(J_POWER1-Pad2)">
-      <node ref="J_POWER1" pin="2"/>
+    <net code="44" name="Net-(R_LED5-Pad1)">
+      <node ref="VR_FADER5" pin="5"/>
+      <node ref="R_LED5" pin="1"/>
     </net>
-    <net code="42" name="Net-(J_POWER1-Pad4)">
-      <node ref="J_POWER1" pin="4"/>
+    <net code="45" name="Net-(R_ChanAB_OAin_Rin5-Pad2)">
+      <node ref="VR_FADER5" pin="2"/>
+      <node ref="R_ChanAB_OAin_Rin5" pin="2"/>
     </net>
-    <net code="43" name="/12VIN+">
-      <node ref="Q_POL1" pin="2"/>
-      <node ref="C_BYPOS1" pin="1"/>
-      <node ref="J_POWER1" pin="5"/>
+    <net code="46" name="Net-(J_IN2-Pad3)">
+      <node ref="J_IN2" pin="3"/>
+      <node ref="VR_FADER2" pin="1"/>
     </net>
-    <net code="44" name="Net-(J_POWER1-Pad7)">
-      <node ref="J_POWER1" pin="7"/>
-    </net>
-    <net code="45" name="Net-(J_POWER1-Pad8)">
-      <node ref="J_POWER1" pin="8"/>
-    </net>
-    <net code="46" name="Net-(J_POWER1-Pad9)">
-      <node ref="J_POWER1" pin="9"/>
-    </net>
-    <net code="47" name="Net-(J_POWER1-Pad10)">
-      <node ref="J_POWER1" pin="10"/>
-    </net>
-    <net code="48" name="Net-(R_ChanAB_OAin_Rin3-Pad1)">
-      <node ref="R_ChanAB_OAin_Rin3" pin="1"/>
-      <node ref="SW_AB3" pin="3"/>
-    </net>
-    <net code="49" name="Net-(FADER2-Pad5)">
+    <net code="47" name="Net-(R_LED2-Pad1)">
+      <node ref="VR_FADER2" pin="5"/>
       <node ref="R_LED2" pin="1"/>
-      <node ref="FADER2" pin="5"/>
     </net>
-    <net code="50" name="Net-(FADER2-Pad1)">
-      <node ref="FADER2" pin="1"/>
-      <node ref="J_IN2" pin="1"/>
-    </net>
-    <net code="51" name="Net-(SW_AB3-Pad2)">
-      <node ref="SW_AB3" pin="2"/>
-    </net>
-    <net code="52" name="Net-(FADER2-Pad2)">
+    <net code="48" name="Net-(R_ChanAB_OAin_Rin2-Pad2)">
+      <node ref="VR_FADER2" pin="2"/>
       <node ref="R_ChanAB_OAin_Rin2" pin="2"/>
-      <node ref="FADER2" pin="2"/>
     </net>
-    <net code="53" name="Net-(R_ChanAB_OAin_Rin2-Pad1)">
-      <node ref="SW_AB2" pin="3"/>
-      <node ref="R_ChanAB_OAin_Rin2" pin="1"/>
+    <net code="49" name="Net-(R_LED3-Pad1)">
+      <node ref="R_LED3" pin="1"/>
+      <node ref="VR_FADER3" pin="5"/>
     </net>
-    <net code="54" name="Net-(FADER3-Pad1)">
-      <node ref="FADER3" pin="1"/>
-      <node ref="J_IN3" pin="1"/>
+    <net code="50" name="Net-(J_IN3-Pad3)">
+      <node ref="J_IN3" pin="3"/>
+      <node ref="VR_FADER3" pin="1"/>
     </net>
-    <net code="55" name="Net-(FADER3-Pad2)">
-      <node ref="FADER3" pin="2"/>
+    <net code="51" name="Net-(R_ChanAB_OAin_Rin3-Pad2)">
+      <node ref="VR_FADER3" pin="2"/>
       <node ref="R_ChanAB_OAin_Rin3" pin="2"/>
     </net>
-    <net code="56" name="Net-(ChanA_OA1-Pad2)">
-      <node ref="SW_AB6" pin="1"/>
+    <net code="52" name="Net-(R_ChanA_OAin_Rf1-Pad2)">
+      <node ref="SW_AB8" pin="1"/>
       <node ref="SW_AB7" pin="1"/>
-      <node ref="SW_AB4" pin="1"/>
+      <node ref="U_ChanA_OA1" pin="2"/>
       <node ref="SW_AB2" pin="1"/>
       <node ref="R_ChanA_OAin_Rf1" pin="2"/>
       <node ref="SW_AB1" pin="1"/>
       <node ref="SW_AB3" pin="1"/>
-      <node ref="SW_AB8" pin="1"/>
-      <node ref="ChanA_OA1" pin="2"/>
+      <node ref="SW_AB4" pin="1"/>
       <node ref="SW_AB5" pin="1"/>
-    </net>
-    <net code="57" name="Net-(SW_AB2-Pad2)">
-      <node ref="SW_AB2" pin="2"/>
-    </net>
-    <net code="58" name="Net-(FADER1-Pad5)">
-      <node ref="FADER1" pin="5"/>
-      <node ref="R_LED1" pin="1"/>
-    </net>
-    <net code="59" name="Net-(FADER1-Pad1)">
-      <node ref="J_IN1" pin="1"/>
-      <node ref="FADER1" pin="1"/>
+      <node ref="SW_AB6" pin="1"/>
     </net>
   </nets>
 </export>
