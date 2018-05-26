@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source H:/Workspace/ElectronicsProjects/EffectsPedals/Switch/1URack_8Input_AB_2Output_Mixer/1URack_8Input_AB_2Output_Mixer.sch)
-    (date "23-05-2018 11:00:22 PM")
+    (date "26-05-2018 11:36:08 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -28,7 +28,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AED5436))
     (comp (ref R_ChanA_OAout_Rin1)
-      (value 25K)
+      (value 22K)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -40,7 +40,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AED5EE1))
     (comp (ref R_ChanB_OAout_Rin1)
-      (value 25K)
+      (value 22K)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
