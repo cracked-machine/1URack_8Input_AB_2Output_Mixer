@@ -1,29 +1,11 @@
-EESchema-LIBRARY Version 2.4
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# 1URack_8Input_AB_2Output_Mixer-rescue:SW_SPDT
+# Audio-JackMono_Tip3_Sw2_Slv1
 #
-DEF 1URack_8Input_AB_2Output_Mixer-rescue:SW_SPDT SW 0 0 Y N 1 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "1URack_8Input_AB_2Output_Mixer-rescue:SW_SPDT" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 1 0 -60 10 65 90 N
-X A 1 200 100 100 L 50 50 1 1 P
-X B 2 -200 0 100 R 50 50 1 1 P
-X C 3 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Conn_audio-jackmono_tip3_sw2_slv1:Audio-JackMono_Tip3_Sw2_Slv1
-#
-DEF Conn_audio-jackmono_tip3_sw2_slv1:Audio-JackMono_Tip3_Sw2_Slv1 J 0 40 Y Y 1 F N
+DEF Audio-JackMono_Tip3_Sw2_Slv1 J 0 40 Y Y 1 F N
 F0 "J" -50 175 50 H V C CNN
-F1 "Conn_audio-jackmono_tip3_sw2_slv1:Audio-JackMono_Tip3_Sw2_Slv1" 225 -75 50 H V C CNN
+F1 "Audio-JackMono_Tip3_Sw2_Slv1" 225 -75 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -39,11 +21,11 @@ X ~ 3 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -57,28 +39,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# EurorackPowerConnector_2x5Pin
 #
-DEF Device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# EurorackPowerConnector_2x5Pin:EurorackPowerConnector_2x5Pin
-#
-DEF EurorackPowerConnector_2x5Pin:EurorackPowerConnector_2x5Pin J 0 40 Y N 1 F N
+DEF EurorackPowerConnector_2x5Pin J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "EurorackPowerConnector_2x5Pin:EurorackPowerConnector_2x5Pin" 50 -300 50 H V C CNN
+F1 "EurorackPowerConnector_2x5Pin" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -98,7 +63,6 @@ S 150 5 100 -5 1 1 6 N
 S 150 105 100 95 1 1 6 N
 S 150 205 100 195 1 1 6 N
 X Pin_1 1 -200 200 150 R 50 50 1 1 w
-X Pin_10 10 300 -200 150 L 50 50 1 1 w
 X Pin_2 2 300 200 150 L 50 50 1 1 w
 X Pin_3 3 -200 100 150 R 50 50 1 1 w
 X Pin_4 4 300 100 150 L 50 50 1 1 w
@@ -107,14 +71,15 @@ X Pin_6 6 300 0 150 L 50 50 1 1 w
 X Pin_7 7 -200 -100 150 R 50 50 1 1 w
 X Pin_8 8 300 -100 150 L 50 50 1 1 w
 X Pin_9 9 -200 -200 150 R 50 50 1 1 w
+X Pin_10 10 300 -200 150 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# npot_led:NPOT_LED
+# NPOT_LED
 #
-DEF npot_led:NPOT_LED RV 0 40 Y N 1 F N
+DEF NPOT_LED RV 0 40 Y N 1 F N
 F0 "RV" -450 0 50 V V C CNN
-F1 "npot_led:NPOT_LED" -375 0 50 V V C CNN
+F1 "NPOT_LED" -375 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -131,21 +96,57 @@ X ~ 5 -175 -150 75 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# tl072_inversedinputs:TL072_InversedInputs
+# R
 #
-DEF tl072_inversedinputs:TL072_InversedInputs U 0 40 Y Y 3 L N
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_SPDT
+#
+DEF SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "SW_SPDT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TL072_InversedInputs
+#
+DEF TL072_InversedInputs U 0 40 Y Y 3 L N
 F0 "U" 0 500 60 H V C CNN
-F1 "tl072_inversedinputs:TL072_InversedInputs" 75 -525 60 H V C CNN
+F1 "TL072_InversedInputs" 75 -525 60 H V C CNN
 F2 "" 75 0 60 H I C CNN
 F3 "" 75 0 60 H I C CNN
 DRAW
 P 2 1 1 0 -175 200 -175 -200 N
 P 3 1 1 0 -175 200 225 0 -175 -200 N
-P 2 2 1 0 -175 200 -175 -200 N
-P 3 2 1 0 -175 200 225 0 -175 -200 N
 X ~ 1 325 0 100 L 50 50 1 1 P
 X - 2 -275 100 100 R 50 50 1 1 P
 X + 3 -275 -100 100 R 50 50 1 1 P
+P 2 2 1 0 -175 200 -175 -200 N
+P 3 2 1 0 -175 200 225 0 -175 -200 N
 X + 5 -275 -100 100 R 50 50 2 1 P
 X - 6 -275 100 100 R 50 50 2 1 P
 X ~ 7 325 0 100 L 50 50 2 1 P
