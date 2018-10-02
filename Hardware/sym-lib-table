@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name 1URack_8Input_AB_2Output_Mixer-rescue)(type Legacy)(uri ${KIPRJMOD}/1URack_8Input_AB_2Output_Mixer-rescue.lib)(options "")(descr ""))
+  (lib (name pot_numbered)(type Legacy)(uri ${KIPRJMOD}/lib/pot_numbered.lib)(options "")(descr ""))
+  (lib (name socket_custom)(type Legacy)(uri ${KIPRJMOD}/lib/socket_custom.lib)(options "")(descr ""))
+  (lib (name sw_custom)(type Legacy)(uri ${KIPRJMOD}/lib/sw_custom.lib)(options "")(descr ""))
+  (lib (name npot_led)(type Legacy)(uri ${KIPRJMOD}/lib/npot_led.lib)(options "")(descr ""))
+  (lib (name tl072_inversedinputs)(type Legacy)(uri ${KIPRJMOD}/lib/tl072_inversedinputs.lib)(options "")(descr ""))
+  (lib (name Conn_audio-jackmono_tip3_sw2_slv1)(type Legacy)(uri ${KIPRJMOD}/lib/Conn_audio-jackmono_tip3_sw2_slv1.lib)(options "")(descr ""))
+  (lib (name EurorackPowerConnector_2x5Pin)(type Legacy)(uri ${KIPRJMOD}/lib/EurorackPowerConnector_2x5Pin.lib)(options "")(descr ""))
+)

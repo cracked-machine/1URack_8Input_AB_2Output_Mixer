@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name custom_sockets)(type KiCad)(uri "$(KIPRJMOD)/lib/custom_sockets.pretty")(options "")(descr ""))
+  (lib (name custom_sw)(type KiCad)(uri "$(KIPRJMOD)/lib/custom_sw.pretty")(options "")(descr ""))
+  (lib (name Bourn_PTL_Slider)(type KiCad)(uri "$(KIPRJMOD)/lib/Bourn_PTL_Slider.pretty")(options "")(descr ""))
+  (lib (name Jack_TRRS_3)(type KiCad)(uri "$(KIPRJMOD)/lib/Jack_TRRS_3.pretty")(options "")(descr ""))
+  (lib (name ThonkiConn_3)(type KiCad)(uri "$(KIPRJMOD)/lib/ThonkiConn_3.pretty")(options "")(descr ""))
+  (lib (name DailywellSwitches)(type KiCad)(uri "$(KIPRJMOD)/lib/DailywellSwitches.pretty")(options "")(descr ""))
+  (lib (name Alpha_Sliders)(type KiCad)(uri "$(KIPRJMOD)/lib/Alpha_Sliders.pretty")(options "")(descr ""))
+  (lib (name Bourns_PTL_sliders_Outlines)(type KiCad)(uri ${KIPRJMOD}/outlines/Bourns_PTL_sliders_Outlines.pretty)(options "")(descr ""))
+)
