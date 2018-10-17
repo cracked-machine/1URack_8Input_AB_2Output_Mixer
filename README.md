@@ -10,8 +10,8 @@ Assembly Instructions:
 
 A. Resistors
 
-1) 8 x 2K2 on all R_LEDX positions (R_LED1 - R_LED8)
-2) 8 x 10K on all R_ChannelAB_OAin_RinX positions (R_ChannelAB_OAin_Rin1 - R_ChannelAB_OAin_Rin8)
+1) 8 x 2K2 on all R_LEDX positions (**R_LED1** - **R_LED8**)
+2) 8 x 10K on all R_ChannelAB_OAin_RinX positions (**R_ChannelAB_OAin_Rin1** - **R_ChannelAB_OAin_Rin8**)
 3) 2 x 10K on **R_ChanA_OAin_Rf1** and **R_ChanB_OAin_Rf1**
 4) 2 x 22K on **R_ChanA_OAout_Rin1** and **R_ChanB_OAout_Rin1**
 5) 2 x 1K  on **R_ChanA_OAout1** and **R_ChanB_OAout1** 
@@ -20,8 +20,8 @@ B. Capacitors
 
 1) 2 x 100nF on **C_ChanA_POSBY1** and **C_ChanB_POSBY1**
 2) 2 x 100nF on **C_ChanA_NEGBY1** and **C_ChanB_NEGBY1**
-3) 1 x 100nF on C_PW_BYNEG1
-4) 1 x 100nF on C_PW_BYPOS1
+3) 1 x 100nF on **C_PW_BYNEG1**
+4) 1 x 100nF on **C_PW_BYPOS1**
 
 C. SOIC components
 
