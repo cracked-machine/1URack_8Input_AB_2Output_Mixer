@@ -1,7 +1,7 @@
 # 1URack_8Input_AB_2Output_Mixer
 Eurorack-compatible 1U 8-channel mixer with selectable A/B outputs. 
 
-![3D Image](https://github.com/cracked-machine/1URack_8Input_AB_2Output_Mixer/blob/master/docs/1URack_8Input_AB_2Output_Mixer_3D_TOP.png)
+![3D Image](https://github.com/cracked-machine/1URack_8Input_AB_2Output_Mixer/blob/master/docs/images/3DRENDER_TOP.png)
 
 <a href="https://www.instagram.com/p/BnoBRM4nUFm/?utm_source=ig_web_copy_link">Link to demo video!</a>
 
