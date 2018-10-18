@@ -25,31 +25,34 @@ B. Capacitors
 
 C. SOIC components
 
-1) 2 x TL072 on U_ChanA_OA1 and U_ChanB_OA1
+1) 2 x TL072 on **U_ChanA_OA1** and **U_ChanB_OA1**
 
 D. ThroughHole Components
 
 1) Solder one fader per section (1-8, A and B). Will only fit one way
-2) Solder one Jack socket per section (1-8, A and B)
+2) Solder one Jack socket per section (1-8, A and B). Will only fit one way
 3) solder one switch per input section (1-8). Orientation does not matter.
 4) Solder pin headers in the power supply holes (2x5).
 
 Troubleshooting:
 ================
 
-Visual Inspection:
-Most problems will arise from bad solder joints on the SMT components so be sure to make a final visual inspection when done. 
-You might find it easier to do this after cleaning the flux off the pcb first.
+1. Signal check:
 
-Measure Voltages:
-Check the resistance on pins connected to each resistor after soldering. If you get an open circuit reading then resolder the component. This will save you time later on!
+Run a VCO signal into each of the inputs and check the signal at both outputs. You can use either an amplifier or an scope at the outputs. It can be helpful to draw a 2x8 grid for the inputs/outputs so you can mark each one in turn as you check.
+
+If any of the inputs fail to produce a signal at an output then check that input section. If no signal appears at one of the output then check that output section. See below for further checks....
+
+2. Visual Inspection:
+
+Most problems will arise from bad solder joints on the SMT components so be sure to make a final visual inspection when done. 
+You might find it easier to do this after cleaning the flux off the pcb first. If in doubt retouch the solder joint.
+
+3. Electrical check:
 
 Check for +/-12V voltages at the power supply pins. Also check pins 8 (positive) and 4 (negative) on the two SOIC TL072 OpAmps. 
 
-For each input channel:
-You wil be able to see the input signal if you probe the middle pin of the switch whilst in the off (center) position.
-The resistance across resistor (R_ChannelAB_OAin_RinX) will be 2K5 (A position), 10K (Center position) and 8K (B position).
+Use a DMM to check the continuity between component pins.  
 
-For the output channels:
-On the SOIC TL072 OpAmps, probing pin 1 will show the input signals (NOT affected by output fader). Probing pin 6 will show the output signals (affected by output fader)
- 
+Check the resistance on pins connected to each resistor after soldering. If you get an open circuit reading then resolder the component.  Seeing a resistance value significantly less than marked, can be a sign that another component has bad solder joints.
+
